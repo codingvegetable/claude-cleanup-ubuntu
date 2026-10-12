@@ -1,0 +1,13 @@
+interface:
+  display_name: Claude Cleanup Ubuntu
+  short_description: Ubuntu Claude cleanup with backups and optional local resets.
+  default_prompt: 使用 $claude-cleanup-ubuntu 按原项目范围审计并清理 Ubuntu 上的 Claude 本机数据，保留会话和配置，并由我选择可选重置项。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
